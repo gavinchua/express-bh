@@ -3,10 +3,13 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from './actions';
 
-import Home from './containers/Home';
-import HarbourFront from './containers/HarbourFront';
+// Import from components
 import Header from './components/Header';
 import Footer from './components/Footer';
+
+// Import from containers
+import Home from './containers/Home';
+import HarbourFront from './containers/HarbourFront';
 
 class App extends Component {
   render() {

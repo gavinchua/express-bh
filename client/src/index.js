@@ -9,7 +9,7 @@ import reducers from "./reducers/index.js";
 
 // All CSS should be imported
 import "bootstrap/dist/css/bootstrap.css";
-import './css/scss/app.css';
+import './css/app.css';
 
 // Import service worker
 import registerServiceWorker from './registerServiceWorker';

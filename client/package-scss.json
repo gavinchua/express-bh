@@ -24,8 +24,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "build-css": "stylus -c src/stylus/app.styl --out src/css/app.css",
-    "watch-css": "npm run build-css && stylus -c -w src/stylus/app.styl --out src/css/app.css",
+    "build-css": "node-sass-chokidar --include-path ./src/scss --include-path ./node_modules src/ -o src/css",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src/scss --include-path ./node_modules src/ -o src/css --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",

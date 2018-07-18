@@ -11,3 +11,4 @@ Technology Stack
 - Redux Thunk
 - Axios
 - Reactstrap (Bootstrap)
+- Stylus

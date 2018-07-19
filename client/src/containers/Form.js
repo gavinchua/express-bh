@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 
-export default class HabourFront extends Component {
+import WizardForm from '../components/form/WizardForm';
+import showResults from '../components/form/showResults';
+
+export default class Form extends Component {
   render() {
-    return(
+    return (
       <main role="main">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              HabourFront
+              <WizardForm onSubmit={showResults} />
             </div>
           </div>
         </div>
       </main>
     );
-  }
-}
+  };
+};

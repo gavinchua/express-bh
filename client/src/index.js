@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore, applyMiddleware } from 'redux';
-import { Provider } from "react-redux";
-import reduxThunk from 'redux-thunk';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
 
 import App from './App';
-import reducers from "./reducers/index.js";
+import reducer from './reducers';
 
 // All CSS should be imported
-import "bootstrap/dist/css/bootstrap.css";
+import 'bootstrap/dist/css/bootstrap.css';
 import './css/app.css';
 
 // Import service worker
@@ -18,7 +17,7 @@ import registerServiceWorker from './registerServiceWorker';
 import axios from 'axios';
 window.axios = axios;
 
-const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
+const store = createStore(reducer);
 
 ReactDOM.render(
   <Provider store={store}>

@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 
 // Import from containers
 import Home from './containers/Home';
+import Form from './containers/Form';
 import HarbourFront from './containers/HarbourFront';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <Header />
           <Route exact path="/" component={Home} />
           <Route path="/HarbourFront" component={HarbourFront} />
+          <Route path="/Form" component={Form} />
           <Footer />
         </React.Fragment>
       </BrowserRouter>

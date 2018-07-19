@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import {
   Collapse,
   Navbar,
@@ -11,9 +11,9 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem
-} from "reactstrap";
-import { NavLink as RRNavLink } from "react-router-dom";
-import TiPhone from "react-icons/lib/ti/phone";
+} from 'reactstrap';
+import { NavLink as RRNavLink } from 'react-router-dom';
+import TiPhone from 'react-icons/lib/ti/phone';
 
 export default class Header extends Component {
   constructor(props) {
@@ -37,7 +37,7 @@ export default class Header extends Component {
             <div className="col-md-12">
               <Navbar color="light" light expand="md">
                 <NavbarBrand tag={RRNavLink} to="/">
-                  BanHeng
+                  Logo
                 </NavbarBrand>
                 <Nav>
                   <NavItem>

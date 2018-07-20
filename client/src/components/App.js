@@ -19,8 +19,8 @@ class App extends Component {
         <React.Fragment>
           <Header />
           <Route exact path="/" component={Home} />
-          <Route path="/HarbourFront" component={HarbourFront} />
-          <Route path="/Form" component={Form} />
+          <Route path="/harbourfront" component={HarbourFront} />
+          <Route path="/form" component={Form} />
           <Footer />
         </React.Fragment>
       </BrowserRouter>

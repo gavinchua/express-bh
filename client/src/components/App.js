@@ -5,10 +5,10 @@ import * as actions from '../actions';
 
 // Import from components
 import Header from './header/Header';
-import Footer from './footer/footer';
+import Footer from './footer/Footer';
 
 // Import from containers
-import Home from '../containers/home';
+import Home from '../containers/Home';
 import Form from '../containers/Form';
 import HarbourFront from '../containers/HarbourFront';
 

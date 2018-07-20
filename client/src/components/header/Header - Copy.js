@@ -68,13 +68,6 @@ export default class Header extends Component {
                         </DropdownItem>
                         <DropdownItem
                           tag={RRNavLink}
-                          to="/TheCathay"
-                          onClick={this.toggle}
-                        >
-                          @TheCathay
-                        </DropdownItem>
-                        <DropdownItem
-                          tag={RRNavLink}
                           to="/ArandaCountryClub"
                           onClick={this.toggle}
                         >
@@ -104,5 +97,5 @@ export default class Header extends Component {
         </div>
       </header>
     );
-  }
-}
+  };
+};

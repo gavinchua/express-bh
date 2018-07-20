@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
-import * as actions from './actions';
+import * as actions from '../actions';
 
 // Import from components
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './header/Header';
+import Footer from './footer/footer';
 
 // Import from containers
-import Home from './containers/Home';
-import Form from './containers/Form';
-import HarbourFront from './containers/HarbourFront';
+import Home from '../containers/home';
+import Form from '../containers/Form';
+import HarbourFront from '../containers/HarbourFront';
 
 class App extends Component {
   render() {

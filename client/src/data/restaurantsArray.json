@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "HarbourFront Center",
+    "navname": "HarbourFront",
     "pagename": "harbourfront",
     "email": "pavillion@banheng.com.sg",
     "address": "1 Maritime Square\n#04-01 HarbourFront Centre",
@@ -24,35 +25,8 @@
   },
   {
     "id": 2,
-    "name": "The Cathay",
-    "pagename": "thecathay",
-    "email": "thecathay@banheng.com.sg",
-    "address": "2 Handy Road\n#02-01 The Cathay",
-    "postalcode": "229233",
-    "businesshours": "Lunch - 11:30am - 3:00pm\nDinner - 6:00pm – 10:00pm",
-    "contact":
-      "Dennis Zhao ( Mr. ) / Sammi Lin ( Ms )\nTel: 6732 7888 / 9230 2513 / 9109 4064\nFax: 6732 1203",
-    "directions": "Dhoby Ghaut MRT Exit A",
-    "latlng": {
-      "lat": 1.2993889,
-      "lng": 103.847398
-    },
-    "zoom": 16,
-    "myslides": [
-      {
-        "src": "https://gavinchua.com/banheng/img/habourfront-center-02.jpg"
-      },
-      {
-        "src": "https://gavinchua.com/banheng/img/habourfront-center-03.jpg"
-      },
-      {
-        "src": "https://gavinchua.com/banheng/img/habourfront-center-04.jpg"
-      }
-    ]
-  },
-  {
-    "id": 3,
     "name": "Aranda Country Club",
+    "navname": "Aranda Country Club",
     "pagename": "arandacountryclub",
     "email": "acc@banheng.com.sg",
     "address": "60 Pasir Ris Drive 3",
@@ -79,8 +53,9 @@
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Orchard Central",
+    "navname": "Orchard Central",
     "pagename": "orchardcentral",
     "email": "oc@banheng.com.sg",
     "address": "181 Orchard Road\n#11-01/02 Orchard Central",
@@ -108,8 +83,9 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Boon Keng",
+    "navname": "Boon Keng",
     "pagename": "boonkeng",
     "email": "boonkeng@banheng.com.sg",
     "address": "Blk 22 Boon Keng Road #01-21",

@@ -36,7 +36,7 @@ export default class HabourFront extends Component {
     const lng = Number(
       RestaurantArrayData.map(restaurant => restaurant.latlng.lng)
     );
-    
+
     const zoom = parseInt(
       RestaurantArrayData.map(restaurant => restaurant.zoom), 10
     );
